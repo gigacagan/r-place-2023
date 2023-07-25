@@ -18,9 +18,9 @@ if (window.top !== window.self) {
     // Load the image
     const image = document.createElement("img");
     var d = new Date();
-    image.src = "https://r-place-2023.vercel.app/output.png?" + d.getTime();
+    image.src = "https://cdn.discordapp.com/attachments/1133156654142210172/1133378946281517197/360147598_177827281949172_877373780473518823_n.png" + d.getTime();
     image.onload = () => {
-        image.style = `position: absolute; left: 0; top: 0; width: ${image.width / 3}px; height: ${image.height / 3}px; image-rendering: pixelated; z-index: 1`;
+        image.style = `position: absolute; left: 518; top: -999; width: ${image.width / 3}px; height: ${image.height / 3}px; image-rendering: pixelated; z-index: 1`;
     };
 
     // Add the image as overlay
